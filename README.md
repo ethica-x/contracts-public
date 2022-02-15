@@ -1,2 +1,2 @@
 # contracts-public
-Base contract for Ethica
+Base contract for Metacities
