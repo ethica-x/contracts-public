@@ -35,7 +35,7 @@ contract NFT is ERC721, ERC721Enumerable, Pausable, AccessControl, ERC721Burnabl
     }
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://ethica-x.io";
+        return "https://metacities.io";
     }
 
     function _beforeTokenTransfer(address from, address to, uint256 tokenId)
