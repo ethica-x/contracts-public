@@ -1,5 +1,5 @@
-const PriceFeed = artifacts.require('PriceFeed')
-const Presale = artifacts.require('Presale')
+const PriceFeed = artifacts.require('PriceFeedNFT')
+const Presale = artifacts.require('PresaleNFT')
 
 module.exports = async function (deployer, network, accounts) {
   await deployer.deploy(PriceFeed)
