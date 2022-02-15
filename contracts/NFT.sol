@@ -12,7 +12,7 @@ contract NFT is ERC721, ERC721Enumerable, Pausable, AccessControl, ERC721Burnabl
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
     mapping ( uint256 => address ) public firstOwners;
 
-    constructor() ERC721("NextEarth", "NE") {
+    constructor() ERC721("Ethica", "ETC") {
         _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
         _setupRole(PAUSER_ROLE, msg.sender);
         _setupRole(MINTER_ROLE, msg.sender);
@@ -35,7 +35,7 @@ contract NFT is ERC721, ERC721Enumerable, Pausable, AccessControl, ERC721Burnabl
     }
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://nextearth.io";
+        return "https://ethica-x.io";
     }
 
     function _beforeTokenTransfer(address from, address to, uint256 tokenId)
