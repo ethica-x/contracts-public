@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@openzeppelin/contracts": "*",
+    "@openzeppelin/contracts": ">=4.4.1"
     "@chainlink/contracts": "*",
     "bn.js": "*"
   }
